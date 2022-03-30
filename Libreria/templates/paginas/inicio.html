@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %} Inicio {% endblock %}
+
+{% block content %} 
+
+    <div class="p-5 bg-light">
+        <div class="container">
+            <h1 class="display-3">Bienvenidos a la librería :D</h1>
+            <p class="lead">Ingresa libros</p>
+            <hr class="my-2">
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="{% url 'libros' %}" role="button">Empezar :D</a>
+            </p>
+        </div>
+    </div>
+
+{% endblock %}
